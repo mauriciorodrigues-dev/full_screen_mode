@@ -1,14 +1,15 @@
 {
-  "short_name": "MeuApp",
-  "name": "Meu Aplicativo",
+  "name": "Your App",
+  "short_name": "App",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "/icone.png",
+      "src": "icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
-  ],
-  "start_url": "/",
-  "display": "fullscreen",
-  "orientation": "portrait"
+  ]
 }
