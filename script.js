@@ -11,3 +11,8 @@ function entrarModoTelaCheia() {
       elemento.msRequestFullscreen();
   }
 }
+
+window.onload = function() {
+  var botao = document.querySelector("button");
+  botao.click();
+}
